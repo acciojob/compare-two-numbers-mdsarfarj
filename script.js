@@ -11,12 +11,12 @@
         var num2 = parseFloat(number2);
 
         // Check if the numbers are equal and display the result in an alert box
-        if (isNaN(num1) || isNaN(num2)) {
-            alert("Invalid input. Please enter valid numbers.");
-        } else {
-            alert("Are the numbers equal? " + (num1 === num2));
-        }
-    }
+       if(num1===num2){
+		   alert("true");
+	   }
+	 else{
+		 alert("false");
+	 }
 
     // Call the function when the page is loaded
     compareNumbers();
